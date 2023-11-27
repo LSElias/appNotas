@@ -28,17 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Prueba1));
             this.rtxtProm6 = new System.Windows.Forms.RichTextBox();
             this.btnMostrar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.rtxtProm5 = new System.Windows.Forms.RichTextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.rtxtDesvEst6 = new System.Windows.Forms.RichTextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.rtxtZ6 = new System.Windows.Forms.RichTextBox();
             this.rtxtDifZ6 = new System.Windows.Forms.RichTextBox();
@@ -50,262 +46,347 @@
             this.rtxtInt = new System.Windows.Forms.RichTextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.btnPrueba2 = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label14 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel4.SuspendLayout();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // rtxtProm6
             // 
-            this.rtxtProm6.Location = new System.Drawing.Point(51, 201);
-            this.rtxtProm6.Margin = new System.Windows.Forms.Padding(4);
+            this.rtxtProm6.Location = new System.Drawing.Point(12, 52);
+            this.rtxtProm6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rtxtProm6.Name = "rtxtProm6";
-            this.rtxtProm6.Size = new System.Drawing.Size(327, 41);
+            this.rtxtProm6.Size = new System.Drawing.Size(214, 34);
             this.rtxtProm6.TabIndex = 0;
             this.rtxtProm6.Text = "";
             this.rtxtProm6.MouseEnter += new System.EventHandler(this.btnMostrar_Click);
             // 
             // btnMostrar
             // 
-            this.btnMostrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMostrar.Location = new System.Drawing.Point(51, 32);
-            this.btnMostrar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnMostrar.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMostrar.Location = new System.Drawing.Point(10, 43);
+            this.btnMostrar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(237, 47);
+            this.btnMostrar.Size = new System.Drawing.Size(178, 38);
             this.btnMostrar.TabIndex = 1;
-            this.btnMostrar.Text = "Mostrar";
+            this.btnMostrar.Text = "Generar resultado";
             this.btnMostrar.UseVisualStyleBackColor = true;
             this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(47, 167);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(9, 35);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(53, 17);
+            this.label1.Size = new System.Drawing.Size(217, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Prom 6";
+            this.label1.Text = "Promedio de Estudiantes de Sexto Grado";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(637, 167);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(239, 35);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 17);
+            this.label2.Size = new System.Drawing.Size(225, 13);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Prom 5";
+            this.label2.Text = "Promedio de Estudiantes de Quinto Grado";
             // 
             // rtxtProm5
             // 
-            this.rtxtProm5.Location = new System.Drawing.Point(641, 201);
-            this.rtxtProm5.Margin = new System.Windows.Forms.Padding(4);
+            this.rtxtProm5.Location = new System.Drawing.Point(242, 52);
+            this.rtxtProm5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rtxtProm5.Name = "rtxtProm5";
-            this.rtxtProm5.Size = new System.Drawing.Size(327, 41);
+            this.rtxtProm5.Size = new System.Drawing.Size(222, 34);
             this.rtxtProm5.TabIndex = 3;
             this.rtxtProm5.Text = "";
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(47, 262);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(92, 17);
-            this.label3.TabIndex = 6;
-            this.label3.Text = "Desv Estan 6";
-            // 
             // rtxtDesvEst6
             // 
-            this.rtxtDesvEst6.Location = new System.Drawing.Point(51, 295);
-            this.rtxtDesvEst6.Margin = new System.Windows.Forms.Padding(4);
+            this.rtxtDesvEst6.Location = new System.Drawing.Point(72, 44);
+            this.rtxtDesvEst6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rtxtDesvEst6.Name = "rtxtDesvEst6";
-            this.rtxtDesvEst6.Size = new System.Drawing.Size(327, 41);
+            this.rtxtDesvEst6.Size = new System.Drawing.Size(246, 34);
             this.rtxtDesvEst6.TabIndex = 5;
             this.rtxtDesvEst6.Text = "";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(697, 32);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(25, 25);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Z";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(759, 32);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 25);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "98%";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(911, 116);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 25);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "2,33";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(811, 68);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(84, 25);
-            this.label7.TabIndex = 10;
-            this.label7.Text = " 0,0100";
+            this.rtxtDesvEst6.TextChanged += new System.EventHandler(this.rtxtDesvEst6_TextChanged);
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(148, 395);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(71, 93);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(49, 17);
+            this.label8.Size = new System.Drawing.Size(87, 17);
             this.label8.TabIndex = 11;
-            this.label8.Text = "Z de 6";
+            this.label8.Text = "Valor Z de 6°";
             // 
             // rtxtZ6
             // 
-            this.rtxtZ6.Location = new System.Drawing.Point(36, 431);
-            this.rtxtZ6.Margin = new System.Windows.Forms.Padding(4);
+            this.rtxtZ6.Location = new System.Drawing.Point(35, 114);
+            this.rtxtZ6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rtxtZ6.Name = "rtxtZ6";
-            this.rtxtZ6.Size = new System.Drawing.Size(327, 52);
+            this.rtxtZ6.Size = new System.Drawing.Size(143, 43);
             this.rtxtZ6.TabIndex = 14;
             this.rtxtZ6.Text = "";
             // 
             // rtxtDifZ6
             // 
-            this.rtxtDifZ6.Location = new System.Drawing.Point(36, 564);
-            this.rtxtDifZ6.Margin = new System.Windows.Forms.Padding(4);
+            this.rtxtDifZ6.Location = new System.Drawing.Point(10, 109);
+            this.rtxtDifZ6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rtxtDifZ6.Name = "rtxtDifZ6";
-            this.rtxtDifZ6.Size = new System.Drawing.Size(327, 52);
+            this.rtxtDifZ6.Size = new System.Drawing.Size(246, 43);
             this.rtxtDifZ6.TabIndex = 16;
             this.rtxtDifZ6.Text = "";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(148, 528);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(7, 88);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(72, 17);
+            this.label9.Size = new System.Drawing.Size(71, 17);
             this.label9.TabIndex = 15;
             this.label9.Text = "Diferencia";
             // 
             // rtxtDifZ5
             // 
-            this.rtxtDifZ5.Location = new System.Drawing.Point(575, 564);
-            this.rtxtDifZ5.Margin = new System.Windows.Forms.Padding(4);
+            this.rtxtDifZ5.Location = new System.Drawing.Point(10, 35);
+            this.rtxtDifZ5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rtxtDifZ5.Name = "rtxtDifZ5";
-            this.rtxtDifZ5.Size = new System.Drawing.Size(327, 52);
+            this.rtxtDifZ5.Size = new System.Drawing.Size(246, 43);
             this.rtxtDifZ5.TabIndex = 20;
             this.rtxtDifZ5.Text = "";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(687, 528);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(7, 14);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(72, 17);
+            this.label10.Size = new System.Drawing.Size(71, 17);
             this.label10.TabIndex = 19;
             this.label10.Text = "Diferencia";
             // 
             // rtxtZ5
             // 
-            this.rtxtZ5.Location = new System.Drawing.Point(575, 431);
-            this.rtxtZ5.Margin = new System.Windows.Forms.Padding(4);
+            this.rtxtZ5.Location = new System.Drawing.Point(197, 114);
+            this.rtxtZ5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rtxtZ5.Name = "rtxtZ5";
-            this.rtxtZ5.Size = new System.Drawing.Size(327, 52);
+            this.rtxtZ5.Size = new System.Drawing.Size(143, 43);
             this.rtxtZ5.TabIndex = 18;
             this.rtxtZ5.Text = "";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(687, 395);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(231, 93);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(49, 17);
+            this.label11.Size = new System.Drawing.Size(87, 17);
             this.label11.TabIndex = 17;
-            this.label11.Text = "Z de 5";
+            this.label11.Text = "Valor Z de 5°";
             // 
             // rtxtInt
             // 
-            this.rtxtInt.Location = new System.Drawing.Point(98, 675);
-            this.rtxtInt.Margin = new System.Windows.Forms.Padding(4);
+            this.rtxtInt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.rtxtInt.Location = new System.Drawing.Point(317, 47);
+            this.rtxtInt.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.rtxtInt.Name = "rtxtInt";
-            this.rtxtInt.Size = new System.Drawing.Size(835, 123);
+            this.rtxtInt.Size = new System.Drawing.Size(372, 101);
             this.rtxtInt.TabIndex = 22;
             this.rtxtInt.Text = "";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(399, 627);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(448, 14);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(95, 17);
+            this.label12.Size = new System.Drawing.Size(119, 21);
             this.label12.TabIndex = 21;
             this.label12.Text = "Interpretación";
             // 
             // btnPrueba2
             // 
             this.btnPrueba2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPrueba2.Location = new System.Drawing.Point(952, 675);
+            this.btnPrueba2.Location = new System.Drawing.Point(586, 508);
+            this.btnPrueba2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnPrueba2.Name = "btnPrueba2";
-            this.btnPrueba2.Size = new System.Drawing.Size(103, 111);
+            this.btnPrueba2.Size = new System.Drawing.Size(150, 46);
             this.btnPrueba2.TabIndex = 25;
             this.btnPrueba2.Text = "Ir a prueba 2";
             this.btnPrueba2.UseVisualStyleBackColor = true;
             this.btnPrueba2.Click += new System.EventHandler(this.btnPrueba2_Click);
             // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label13.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(12, 10);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(106, 21);
+            this.label13.TabIndex = 26;
+            this.label13.Text = "Problema #1";
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.label13);
+            this.panel1.Controls.Add(this.btnMostrar);
+            this.panel1.Location = new System.Drawing.Point(22, 10);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(209, 94);
+            this.panel1.TabIndex = 27;
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.label14);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.rtxtProm6);
+            this.panel2.Controls.Add(this.rtxtProm5);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Location = new System.Drawing.Point(247, 10);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(489, 94);
+            this.panel2.TabIndex = 28;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label14.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(8, 4);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(207, 21);
+            this.label14.TabIndex = 26;
+            this.label14.Text = "Promedios de Estudiantes";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel3.Controls.Add(this.pictureBox1);
+            this.panel3.Location = new System.Drawing.Point(22, 124);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(308, 170);
+            this.panel3.TabIndex = 29;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.OutlineButton;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.ImageLocation = "";
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(308, 170);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel4.Controls.Add(this.label4);
+            this.panel4.Controls.Add(this.rtxtDesvEst6);
+            this.panel4.Controls.Add(this.label8);
+            this.panel4.Controls.Add(this.rtxtZ6);
+            this.panel4.Controls.Add(this.label11);
+            this.panel4.Controls.Add(this.rtxtZ5);
+            this.panel4.Location = new System.Drawing.Point(348, 124);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(388, 170);
+            this.panel4.TabIndex = 30;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.label4.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(68, 10);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(245, 21);
+            this.label4.TabIndex = 26;
+            this.label4.Text = "Desviación Estandár (6° Grado)";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel5.Controls.Add(this.label10);
+            this.panel5.Controls.Add(this.rtxtDifZ5);
+            this.panel5.Controls.Add(this.label9);
+            this.panel5.Controls.Add(this.rtxtDifZ6);
+            this.panel5.Controls.Add(this.rtxtInt);
+            this.panel5.Controls.Add(this.label12);
+            this.panel5.Location = new System.Drawing.Point(22, 310);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(714, 170);
+            this.panel5.TabIndex = 31;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(417, 508);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(150, 46);
+            this.button1.TabIndex = 32;
+            this.button1.Text = "Volver al Menú";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Prueba1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1072, 827);
+            this.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.ClientSize = new System.Drawing.Size(749, 565);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnPrueba2);
-            this.Controls.Add(this.rtxtInt);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.rtxtDifZ5);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.rtxtZ5);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.rtxtDifZ6);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.rtxtZ6);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.rtxtDesvEst6);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.rtxtProm5);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnMostrar);
-            this.Controls.Add(this.rtxtProm6);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Font = new System.Drawing.Font("Nirmala UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Prueba1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form: Comprobación de función del problema";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Prueba1_FormClosing);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -316,12 +397,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.RichTextBox rtxtProm5;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.RichTextBox rtxtDesvEst6;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.RichTextBox rtxtZ6;
         private System.Windows.Forms.RichTextBox rtxtDifZ6;
@@ -333,5 +409,15 @@
         private System.Windows.Forms.RichTextBox rtxtInt;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Button btnPrueba2;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Button button1;
     }
 }

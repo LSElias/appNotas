@@ -13,10 +13,12 @@ namespace appNotas.Capas.GUI
         public Prueba1()
         {
             InitializeComponent();
+            pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
         }
 
         private void btnMostrar_Click(object sender, EventArgs e)
         {
+            
             DALNotas dalNotas = new DALNotas();
             ProblemaUno oProblema = new ProblemaUno();
             oProblema.listNotas = dalNotas.GetAllNotas();
@@ -47,6 +49,28 @@ namespace appNotas.Capas.GUI
         private void Prueba1_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rtxtDesvEst6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Inicio inicio = new Inicio();
+            inicio.Show();
+            this.Hide();
         }
     }
 }
