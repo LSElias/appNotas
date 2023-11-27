@@ -3,6 +3,7 @@ using appNotas.Capas.Logica;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace appNotas.Capas.GUI
@@ -34,6 +35,18 @@ namespace appNotas.Capas.GUI
             //Interpretación
             rtxtInt.Text = oProblema.ToString();
 
+        }
+
+        private void btnPrueba2_Click(object sender, EventArgs e)
+        {
+            Prueba2 oPrueba2 = new Prueba2();
+            oPrueba2.Show();
+            this.Hide();
+        }
+
+        private void Prueba1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

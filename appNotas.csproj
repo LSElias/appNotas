@@ -57,11 +57,23 @@
     <Compile Include="Capas\GUI\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Capas\GUI\Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capas\GUI\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Capas\GUI\Prueba1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Capas\GUI\Prueba1.Designer.cs">
       <DependentUpon>Prueba1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Capas\GUI\Prueba2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Capas\GUI\Prueba2.Designer.cs">
+      <DependentUpon>Prueba2.cs</DependentUpon>
     </Compile>
     <Compile Include="Capas\Logica\DALConexion.cs" />
     <Compile Include="Capas\Logica\DALNotas.cs" />
@@ -76,8 +88,14 @@
     <EmbeddedResource Include="Capas\GUI\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Capas\GUI\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Capas\GUI\Prueba1.resx">
       <DependentUpon>Prueba1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Capas\GUI\Prueba2.resx">
+      <DependentUpon>Prueba2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
