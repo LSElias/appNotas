@@ -35,5 +35,40 @@ namespace appNotas.Capas.GUI
         {
             Application.Exit();
         }
+
+        private void Inicio_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTema_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblTylinn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
